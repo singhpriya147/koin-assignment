@@ -5,7 +5,7 @@
 .env
 # Production
 /build
-
+/src/assets
 # Misc
 .DS_Store
 .env.local
