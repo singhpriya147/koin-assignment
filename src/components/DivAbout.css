@@ -1,0 +1,215 @@
+.about-bitcoin {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 1.8rem;
+  font-weight: 600;
+  font-family: inherit;
+}
+.about-bitcoin-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-mini)
+    var(--padding-0);
+}
+.what-is-bitcoin {
+  position: relative;
+  line-height: 1.35rem;
+}
+.bitcoins-price-today {
+  /* width: 51.875rem; */
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+}
+.hr {
+  align-self: stretch;
+  height: 0.063rem;
+  position: relative;
+  border-bottom: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.bitcoins-price-today-is-us16-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-8xs);
+  gap: 0.938rem 0;
+  font-size: var(--inter-regular-16-size);
+  color: var(--gray-2);
+}
+.lorem-ipsum-dolor4 {
+  position: relative;
+  line-height: 1.35rem;
+}
+.what-is-bitcoin-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.625rem 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+}
+.lorem-ipsum-dolor5 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blank-line,
+.blank-line1,
+.diam-praesent-massa,
+.fermentum-hendrerit-imperdiet {
+  margin: 0;
+}
+.lorem-ipsum-dolor-container2 {
+  height: 22.75rem;
+  width: 51.875rem;
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.lorem-ipsum-dolor-sit-amet-con-wrapper {
+  padding: var(--padding-0) var(--padding-0) var(--padding-8xs);
+  font-size: var(--inter-regular-16-size);
+  color: var(--gray-2);
+}
+.hr-wrapper,
+.hr1,
+.lorem-ipsum-dolor-sit-amet-con-wrapper {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hr1 {
+  flex: 1;
+  position: relative;
+  border-bottom: 1px solid var(--color-lightgray);
+}
+.hr-wrapper {
+  height: 0.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-8xs);
+}
+.already-holding-bitcoin {
+  margin: 0;
+  width: 29rem;
+  height: 2.938rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 1.8rem;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.div-coin-content1 {
+  width: 50.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 1.938rem;
+  max-width: 100%;
+}
+.hr2 {
+  align-self: stretch;
+  height: 0.063rem;
+  position: relative;
+  border-bottom: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.button-next-slide,
+.link {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.link {
+  gap: 0.938rem 0;
+  font-size: var(--font-size-xl);
+  color: var(--gray-white);
+}
+.button-next-slide {
+  gap: 0.5rem 0;
+}
+.blank-line2,
+.fermentum-hendrerit-imperdiet1 {
+  margin: 0;
+}
+.fermentum-hendrerit-imperdiet-container {
+  height: 8.125rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -1.062rem;
+  left: 1.5rem;
+  font-size: var(--inter-regular-16-size);
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--gray-2);
+  /* display: inline-block; */
+}
+.div21 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-8xl) var(--padding-109xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 0.625rem 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--gray-1);
+  font-family: var(--inter-regular-12);
+
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 1125px) {
+  .div21 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .div-coin-content1 {
+    flex-wrap: wrap;
+  }
+  .div21 {
+    padding-bottom: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-bitcoin,
+  .already-holding-bitcoin {
+    font-size: var(--font-size-lgi);
+    line-height: 1.438rem;
+  }
+  .div-coin-content1 {
+    gap: 0 1.938rem;
+  }
+}

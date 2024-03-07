@@ -1,0 +1,222 @@
+.tokenomics {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 1.8rem;
+  font-weight: 600;
+  font-family: inherit;
+}
+.tokenomics-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-12xs);
+}
+.initial-distribution {
+  position: relative;
+  line-height: 2.25rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 50.625rem;
+}
+.divtokenomics-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-512xl) var(--padding-0)
+    var(--padding-0);
+}
+.chart-item-container,
+.spancircle {
+  height: 11.188rem;
+  width: 11.188rem;
+  position: relative;
+}
+.spancircle {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-dodgerblue);
+}
+.spancirclemargin {
+  height: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-4xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.crowdsale-investors-80 {
+  position: relative;
+  line-height: 1.25rem;
+}
+.divtokenomics-label,
+.spanpercent {
+  display: flex;
+  justify-content: flex-start;
+}
+.spanpercent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.divtokenomics-label {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.spancircle1 {
+  width: 0.75rem;
+  height: 0.75rem;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-orange);
+}
+.spancirclemargin1 {
+  height: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-4xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.foundation-20 {
+  position: relative;
+  line-height: 1.25rem;
+}
+.divtokenomics-label1,
+.spanpercent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divtokenomics-label1 {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-0) var(--padding-45xl) var(--padding-0)
+    var(--padding-0);
+}
+.divtokenomics-no-item {
+  height: 6.938rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem 0;
+}
+.divtokenomics-wrapper,
+.link-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.link-wrapper2 {
+  flex: 1;
+  padding: var(--padding-xl) var(--padding-0);
+  min-width: 9rem;
+}
+.divtokenomics-wrapper {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-367xl) var(--padding-0)
+    var(--padding-0);
+  gap: 0 1.5rem;
+  min-height: 13.125rem;
+  font-size: var(--inter-regular-16-size);
+  color: var(--mine-shaft);
+}
+.divtokenomics-chart-container {
+  width: 50.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.lorem-ipsum-dolor6 {
+  /* width: 52.063rem; */
+  position: relative;
+  font-size: var(--inter-regular-16-size);
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--gray-2);
+  display: inline-block;
+  text-align: justify;
+}
+.div22,
+.divh2d-cf4c6ced {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divh2d-cf4c6ced {
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-12xs);
+  min-height: 14.188rem;
+  font-size: var(--font-size-xl);
+  color: var(--cod-gray1);
+}
+.div22 {
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-white);
+  align-items: center;
+  padding: var(--padding-4xl) var(--padding-4xl) var(--padding-42xl);
+  gap: 1.5rem 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--gray-1);
+  font-family: var(--inter-regular-12);
+}
+@media screen and (max-width: 1125px) {
+  .initial-distribution {
+    max-width: 100%;
+  }
+  .divtokenomics-wrapper {
+    padding-right: var(--padding-174xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .divtokenomics-title {
+    padding-right: var(--padding-246xl);
+    box-sizing: border-box;
+  }
+  .chart-item-container {
+    flex: 1;
+  }
+  .divtokenomics-wrapper {
+    flex-wrap: wrap;
+  }
+  .div22 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tokenomics {
+    font-size: var(--font-size-lgi);
+    line-height: 1.438rem;
+  }
+  .initial-distribution {
+    font-size: var(--inter-regular-16-size);
+    line-height: 1.813rem;
+  }
+  .divtokenomics-title,
+  .divtokenomics-wrapper {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

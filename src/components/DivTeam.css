@@ -1,0 +1,60 @@
+.team {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 1.8rem;
+  font-weight: 600;
+  font-family: inherit;
+}
+.team-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lorem-ipsum-dolor8 {
+  position: relative;
+  font-size: var(--inter-regular-16-size);
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--gray-2);
+  display: inline-block;
+}
+.div23 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-8xl) var(--padding-25xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 1.5rem 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--gray-1);
+  font-family: var(--inter-regular-12);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .div23 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .team {
+    font-size: var(--font-size-lgi);
+    line-height: 1.438rem;
+  }
+  .div23 {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
